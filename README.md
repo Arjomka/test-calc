@@ -3,13 +3,13 @@
 **Uzdevums**  
 Uzrakstīt katrai programmai manuālās testēšanas scenārijus.
 
-1x Happy path  
+2x Happy path  
 Acīmredzams programmas izmantošanas piemērs
 
-5x Use case  
+3x Use case  
 Ietvert piemērus kā var būt lietota programma, kādos nolukos
 
-5x Edge case  
+3x Edge case  
 Ietvērt robežgadījumus, nekorrektus izmantošanas piemērus
 
 **Scenārija konstrukcija**  
