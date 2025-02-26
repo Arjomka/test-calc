@@ -1,12 +1,13 @@
 from functions import calculate_calories_burned
 
-print("Welcome to the Calories Burned Calculator!")
-activity = input("Enter the activity (e.g., running, cycling, swimming): ")
-duration = float(input("Enter the duration of activity in minutes: "))
-weight = float(input("Enter your weight in kilograms: "))
-calories_burned = calculate_calories_burned(activity, duration, weight)
+print("Laipni lūgti Kaloriju Patēriņa Kalkulatorā!")
+aktivitate = input("Ievadiet aktivitāti (piem., skriešana, riteņbraukšana, peldēšana): ")
+ilgums = float(input("Ievadiet aktivitātes ilgumu minūtēs: "))
+svars = float(input("Ievadiet savu svaru kilogramos: "))
 
-if isinstance(calories_burned, str):
-    print(calories_burned)
+sadedzinatas_kalorijas = calculate_calories_burned(aktivitate, ilgums, svars)
+
+if isinstance(sadedzinatas_kalorijas, str):
+    print(sadedzinatas_kalorijas)
 else:
-    print("You burned calories.", calories_burned)
+    print("Jūs esat sadedzinājis kalorijas:", sadedzinatas_kalorijas)
