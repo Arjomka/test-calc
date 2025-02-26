@@ -4,10 +4,10 @@ def calculate_bmi(weight_kg, height_m):
 
 def interpret_bmi(bmi):
     if bmi < 18.5:
-        return "Underweight"
+        return "Zems svars"
     elif bmi < 25:
-        return "Normal weight"
+        return "Normāls svars"
     elif bmi < 30:
-        return "Overweight"
+        return "Liekais svars"
     else:
-        return "Obese"
+        return "Aptaukošanās"

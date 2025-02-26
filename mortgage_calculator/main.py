@@ -1,10 +1,10 @@
 from functions import calculate_monthly_payment
 
-print("Welcome to the Mortgage Calculator!")
-amount = float(input("Enter the loan amount: "))
-annual_interest_rate = float(input("Enter the annual interest rate (e.g., 5 for 5%): "))
-years = int(input("Enter the loan term in years: "))
+print("Laipni lūgti Hipotēku kalkulatorā!")
+amount = float(input("Ievadiet aizdevuma summu: €"))
+annual_interest_rate = float(input("Ievadiet gada procentu likmi (piemēram, 5 - 5%): "))
+years = int(input("Ievadiet aizdevuma termiņu gados: "))
 
 monthly_payment = calculate_monthly_payment(amount, annual_interest_rate, years)
 
-print("\nYour monthly payment will be: €{:.2f}".format(monthly_payment))
+print("\nJūsu ikmēneša maksājums būs:  €{:.2f}".format(monthly_payment))

@@ -10,4 +10,5 @@ class TestCaloriesBurnedCalculator(unittest.TestCase):
     def test_calculate_calories_burned_invalid_activity(self):
         self.assertEqual(calculate_calories_burned("walking", 60, 75), "Activity not found. Please choose from: running, cycling, swimming")
 
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()

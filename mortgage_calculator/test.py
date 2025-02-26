@@ -8,4 +8,5 @@ class TestMortgageCalculator(unittest.TestCase):
         # Test case 1: Monthly payment calculation
         self.assertAlmostEqual(calculate_monthly_payment(100000, 5, 30), 536.82, places=2)
 
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()
